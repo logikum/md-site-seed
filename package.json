@@ -1,0 +1,33 @@
+{
+  "name": "md-site-seed",
+  "version": "0.0.1",
+  "description": "seed project for md-site-engine applications",
+  "keywords": [
+    "markdown",
+    "web site",
+    "node.js",
+    "md-site-engine"
+  ],
+  "license": "MIT",
+  "author": "Mármarosi József <marmarosi@logikum.hu>",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.17",
+    "compression": "^1.6",
+    "connect-redis": "^3.2",
+    "express": "^4.15",
+    "express-session": "^1.15",
+    "helmet": "^3.5",
+    "md-site-engine": "^0.1",
+    "serve-favicon": "^2.4",
+    "serve-static": "^1.12"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/logikum/md-site-seed.git"
+  },
+  "bugs": "https://github.com/logikum/md-site-seed/issues",
+  "engines": {
+    "node": ">=0.10.0"
+  }
+}
