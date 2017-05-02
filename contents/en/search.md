@@ -17,6 +17,6 @@ searchable:     false
 
 # Search results
 
-<div class="search-phrase">Text to search: {{ #search-phrase }}</div>
+<div class="search-phrase">Text to search: <strong>{{ .text2search }}</strong></div>
 
-{{ #search-results }}
+{{ .results }}
