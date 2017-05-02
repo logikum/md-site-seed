@@ -17,6 +17,6 @@ searchable:     false
 
 # Keresés eredménye
 
-<div class="search-phrase">Keresett szöveg: {{ #search-phrase }}</div>
+<div class="search-phrase">Keresett szöveg: <strong>{{ .text2search }}</strong></div>
 
-{{ #search-results }}
+{{ .results }}
