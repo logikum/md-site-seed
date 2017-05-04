@@ -39,7 +39,7 @@ body {
 /* Search page */
 .search-phrase {
     margin-bottom: 20px;
-    padding: 1em;
+    padding: 10px 20px;
     background-color: #f8f8f8;
 }
 .search-result {
