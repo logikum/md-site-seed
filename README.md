@@ -25,16 +25,15 @@ from [here](https://nodejs.org/).
 
 #### Clone md-site-seed
 
-Clone the `md-site-seed` repository without the commit history using git:
+Clone the `md-site-seed` repository and set the origin alias to your repository:
 
 ```
-git clone --depth=1 https://github.com/logikum/md-site-seed.git <your-project-name>
+git clone https://github.com/logikum/md-site-seed.git <your-project-name>
 cd <your-project-name>
 git remote rm origin
 git remote add origin <url-of your-repository>
+git push -u origin master
 ```
-
-The depth=1 tells git to only pull down one commit worth of historical data.
 
 #### Install Dependencies
 
