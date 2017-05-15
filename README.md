@@ -12,12 +12,12 @@ renderer.
 
 ### Getting started
 
-To get you started you can simply clone the `md-site-engine` repository and
+To get you started you can simply clone the `md-site-seed` repository and
 install the dependencies:
 
 #### Prerequisites
 
-You need git to clone the `md-site-engine` repository. You can get git from
+You need git to clone the `md-site-seed` repository. You can get git from
 [here](https://git-scm.com/).
 
 You must have Node.js and its package manager (npm) installed. You can get them
@@ -25,22 +25,15 @@ from [here](https://nodejs.org/).
 
 #### Clone md-site-seed
 
-Clone the `md-site-engine` repository using git:
+Clone the `md-site-seed` repository and set the origin alias to your repository:
 
 ```
-git clone https://github.com/logikum/md-site-engine.git
-cd angular-seed
+git clone https://github.com/logikum/md-site-seed.git <your-project-name>
+cd <your-project-name>
+git remote rm origin
+git remote add origin <url-of your-repository>
+git push -u origin master
 ```
-
-If you just want to start a new project without the `md-site-engine` commit
-history then you can do:
-
-```
-git clone --depth=1 https://github.com/logikum/md-site-engine.git <your-project-name>
-cd angular-seed
-```
-
-The depth=1 tells git to only pull down one commit worth of historical data.
 
 #### Install Dependencies
 
