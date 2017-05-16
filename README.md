@@ -31,7 +31,7 @@ Clone the `md-site-seed` repository and set the origin alias to your repository:
 git clone https://github.com/logikum/md-site-seed.git <your-project-name>
 cd <your-project-name>
 git remote rm origin
-git remote add origin <url-of your-repository>
+git remote add origin <url-of-your-repository>
 git push -u origin master
 ```
 
