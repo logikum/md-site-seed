@@ -29,7 +29,7 @@ environment for these projects.
 
 The seed contains a sample `md-site-engine` application and it uses the default
 configuration to launch an instant web site development. The seed application
-doesn't do much, just shows how to put together contents, components, controls
+does not do much, just shows how to put together contents, components, controls
 and public resources to create a web site. It also presents a custom `marked`
 renderer.
 
