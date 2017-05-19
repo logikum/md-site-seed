@@ -5,7 +5,7 @@ var path = require( 'path' );
 var favicon = require( 'serve-favicon' );
 var helmet = require( 'helmet' );
 var compression = require( 'compression' );
-var serveStatic = require( 'serve-static') ;
+var serveStatic = require( 'serve-static' );
 var session = require( 'express-session' );
 var RedisStore = require( 'connect-redis' )( session );
 var bodyParser = require('body-parser');
@@ -45,14 +45,15 @@ app.use( compression() );
 app.use( serveStatic( 'public', { index: false } ) );
 
 // Get posted data for search.
-app.use(bodyParser.urlencoded({ extended: true }));
+app.use( bodyParser.urlencoded( { extended: true } ) );
 
 // Set site routes.
-engine.setRoutes( app, { }, mode );
+var actions = { };
+engine.setRoutes( app, actions, mode );
 
 // Start web server.
 var host = process.env.HOST || '127.0.0.1';
 var port = process.env.PORT || 3000;
-var server = app.listen( port, host, function () {
+var server = app.listen( port, host, function() {
   console.log( 'Markdown seed site listening at http://%s:%s', host, port );
 } );
