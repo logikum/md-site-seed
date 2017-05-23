@@ -41,10 +41,10 @@ Forrás: [github.com/logikum/md-site-engine](https://github.com/logikum/md-site-
 
 ### Dokumentáció: md-doc-site
 
-Honlap: [md-doc.logikum.hu](http://md-doc.logikum.hu "|_blank")  
+Honlap: [md-doc.logikum.hu](https://md-doc.logikum.hu "|_blank")  
 Forrás: [github.com/logikum/md-doc-site](https://github.com/logikum/md-doc-site "|_blank")
 
 ### Bemutató: md-web-site
 
-Honlap: [md-web.logikum.hu](http://md-web.logikum.hu "|_blank")  
+Honlap: [md-web.logikum.hu](https://md-web.logikum.hu "|_blank")  
 Forrás: [github.com/logikum/md-web-site](https://github.com/logikum/md-web-site "|_blank")

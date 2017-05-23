@@ -41,10 +41,10 @@ Source: [github.com/logikum/md-site-engine](https://github.com/logikum/md-site-e
 
 ### Documentation: md-doc-site
 
-Site: [md-doc.logikum.hu](http://md-doc.logikum.hu "|_blank")  
+Site: [md-doc.logikum.hu](https://md-doc.logikum.hu "|_blank")  
 Source: [github.com/logikum/md-doc-site](https://github.com/logikum/md-doc-site "|_blank")
 
 ### Demonstration: md-web-site
 
-Site: [md-web.logikum.hu](http://md-web.logikum.hu "|_blank")  
+Site: [md-web.logikum.hu](https://md-web.logikum.hu "|_blank")  
 Source: [github.com/logikum/md-web-site](https://github.com/logikum/md-web-site "|_blank")
