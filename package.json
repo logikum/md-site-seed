@@ -1,6 +1,6 @@
 {
   "name": "md-site-seed",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Seed project for md-site-engine applications.",
   "keywords": [
     "markdown",
@@ -18,7 +18,7 @@
     "express": "^4.16.4",
     "express-session": "^1.15.6",
     "helmet": "^3.16.0",
-    "md-site-engine": "^1.0.3",
+    "md-site-engine": "^1.0.4",
     "serve-favicon": "^2.5.0",
     "serve-static": "^1.13.2"
   },
@@ -28,6 +28,6 @@
   },
   "bugs": "https://github.com/logikum/md-site-seed/issues",
   "engines": {
-    "node": ">=0.10.0"
+    "node": ">=6.0.0"
   }
 }
