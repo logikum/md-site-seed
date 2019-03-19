@@ -16,7 +16,7 @@ searchable:     true
 ======================================================================= -->
 
 <h1 class="pull-right">
-![About this site](/images/mdse-200x52.png)
+  <img src="/images/mdse-200x52.png" title="About this site">
 </h1>
 
 # About md-site-seed
