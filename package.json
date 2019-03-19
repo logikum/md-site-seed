@@ -1,6 +1,6 @@
 {
   "name": "md-site-seed",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Seed project for md-site-engine applications.",
   "keywords": [
     "markdown",
@@ -12,15 +12,15 @@
   "author": "Mármarosi József <marmarosi@logikum.hu>",
   "main": "server.js",
   "dependencies": {
-    "body-parser": "^1.17",
-    "compression": "^1.6",
+    "body-parser": "^1.18.3",
+    "compression": "^1.7.4",
     "connect-redis": "^3.3",
-    "express": "^4.15",
-    "express-session": "^1.15",
-    "helmet": "^3.6",
-    "md-site-engine": "^1.0",
-    "serve-favicon": "^2.4",
-    "serve-static": "^1.12"
+    "express": "^4.16.4",
+    "express-session": "^1.15.6",
+    "helmet": "^3.16.0",
+    "md-site-engine": "^1.0.3",
+    "serve-favicon": "^2.5.0",
+    "serve-static": "^1.13.2"
   },
   "repository": {
     "type": "git",
