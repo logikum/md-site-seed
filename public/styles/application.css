@@ -8,7 +8,7 @@
     /*color: var(--base-4);*/
 }
 .theme--forest {
-@extend theme;
+    @extend theme;
     --dark: #0f3d0f;
     --darker: #196619;
     --medium: #228B22;
@@ -16,7 +16,7 @@
     --light: #ebfaeb;
 }
 .theme--liberty {
-@extend theme;
+    @extend theme;
     --dark: #1a1b33;
     --darker: #4d5299;
     --medium: #545AA7;
@@ -24,7 +24,7 @@
     --light: #eeeff6;
 }
 .theme--maroon {
-@extend theme;
+    @extend theme;
     --dark: #3c1021;
     --darker: #8c264d;
     --medium: #b03060;
@@ -244,4 +244,18 @@ ul.side-menu ul ul li {
 }
 mark {
     background-color: yellow;
+}
+
+/* Theme selector */
+.btn-forest {
+    background-color: #228B22;
+}
+.btn-liberty {
+    background-color: #545AA7;
+}
+.btn-maroon {
+    background-color: #b03060;
+}
+label.theme {
+    margin-top: 5px;
 }

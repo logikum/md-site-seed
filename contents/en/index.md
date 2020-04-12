@@ -15,6 +15,8 @@ layout:
 searchable:     true
 ======================================================================= -->_
 
+{{ =theme }}
+
 # Home Page
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sit amet libero
@@ -62,3 +64,5 @@ libero, vestibulum nec convallis sit amet, vehicula nec ligula. Donec placerat
 sodales tincidunt. Duis sit amet pellentesque mauris. Cras dui ex, volutpat ac
 aliquam non, cursus in ex. Etiam quis lorem lacus. Praesent pulvinar, dolor sed
 tempor auctor, purus felis volutpat tellus, eget facilisis eros ante at nisl. 
+
+<span style="display: none">{{ #select-theme }}</span>
