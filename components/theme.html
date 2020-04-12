@@ -1,0 +1,17 @@
+<div class="pull-right">
+    <form name="themeForm" class="form-inline" action="/actions/set-theme" method="post">
+        <div class="form-group">
+            <label class="theme">{{ #select-theme }}</label>
+            <input type="hidden" id="theme" name="theme">
+        </div>
+        <button type="submit" class="btn btn-forest"
+                onclick="document.getElementById('theme').value = 'forest';"
+        >&nbsp;&nbsp;</button>
+        <button type="submit" class="btn btn-liberty"
+                onclick="document.getElementById('theme').value = 'liberty';"
+        >&nbsp;&nbsp;</button>
+        <button type="submit" class="btn btn-maroon"
+                onclick="document.getElementById('theme').value = 'maroon';"
+        >&nbsp;&nbsp;</button>
+    </form>
+</div>
