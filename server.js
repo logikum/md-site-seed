@@ -17,6 +17,7 @@ var mode = process.env.NODE_ENV || 'development';
 // Get configuration.
 var configPath = 'config/' + mode + '.json';
 var config = engine.getConfiguration( configPath );
+global.theme = 'liberty';
 
 // Set up content manager.
 engine.getContents( config );
@@ -48,7 +49,9 @@ app.use( serveStatic( 'public', { index: false } ) );
 app.use( bodyParser.urlencoded( { extended: true } ) );
 
 // Set site routes.
-var actions = { };
+var actions = {
+  'POST:/actions/set-theme': '/actions/set-theme.js'
+};
 engine.setRoutes( app, actions, mode );
 
 // Start web server.

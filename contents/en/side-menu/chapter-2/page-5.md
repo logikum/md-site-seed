@@ -1,23 +1,27 @@
 <!-- ======================================================================
 --- Search engine
-title:          Home Page
-keywords:       home page
-description:    Home page of md-site-seed site.
+title:          Page 5
+keywords:       Page 5
+description:    Page 5 in side menu.
 --- Menu system
-order:          
-text:           
+order:          20
+text:           Page 5
 hidden:         false
 umbel:          false
 --- Page properties
 id:             
 document:       
-layout:         
+layout:         layout-2-left
+$-left:         #side-menu
 searchable:     true
-======================================================================= -->_
+--- Side menu
+side-menu-root:     /side-menu
+side-menu-header:   Side menu
+side-menu-top:      
+side-menu-depth:    2
+======================================================================= -->
 
-{{ =theme }}
-
-# Home Page
+# Page 5
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sit amet libero
 tincidunt, vulputate mi nec, accumsan magna. Sed porttitor aliquet justo,
@@ -57,12 +61,3 @@ iaculis diam. Donec tincidunt non nisl eu maximus. Morbi bibendum condimentum
 magna et ultrices. Duis velit leo, porttitor a molestie vitae, iaculis quis
 lectus. Suspendisse dapibus nunc in sapien finibus faucibus. Fusce sed sapien
 vel libero vestibulum pretium a eget ante. Fusce feugiat mattis tristique.
-
-Morbi vestibulum orci aliquam diam dictum tincidunt. In hac habitasse platea
-dictumst. Phasellus lobortis pellentesque nisl quis tristique. Etiam ipsum
-libero, vestibulum nec convallis sit amet, vehicula nec ligula. Donec placerat
-sodales tincidunt. Duis sit amet pellentesque mauris. Cras dui ex, volutpat ac
-aliquam non, cursus in ex. Etiam quis lorem lacus. Praesent pulvinar, dolor sed
-tempor auctor, purus felis volutpat tellus, eget facilisis eros ante at nisl. 
-
-<span style="display: none">{{ #select-theme }}</span>
