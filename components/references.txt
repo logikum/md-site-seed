@@ -2,3 +2,4 @@
 [md-site-seed]: ~ "|_blank"
 [let us know]: ~/issues "|_blank"
 [tudassa velünk]: ~/issues "|_blank"
+[háganoslo saber]: ~/issues "|_blank"
