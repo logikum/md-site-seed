@@ -1,0 +1,2 @@
+[~]: /columns
+[Page with 1 Column]: ~/

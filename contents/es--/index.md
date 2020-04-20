@@ -1,8 +1,8 @@
 <!-- ======================================================================
 --- Search engine
-title:          Honlap
-keywords:       honlap
-description:    Az md-site-seed hely honlapja.
+title:          Página de inicio
+keywords:       página de inicio
+description:    La página de inicio del sitio md-site-seed.
 --- Menu system
 order:          
 text:           
@@ -13,11 +13,11 @@ id:
 document:       
 layout:         
 searchable:     true
-======================================================================= -->
+======================================================================= -->_
 
 {{ =theme }}
 
-# Honlap
+# Página de inicio
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sit amet libero
 tincidunt, vulputate mi nec, accumsan magna. Sed porttitor aliquet justo,
